@@ -1,0 +1,82 @@
+@import '../../theme/variables.scss';
+
+.partnersWrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.partnersLeftContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnersTitleContainer {
+  text-align: center;
+}
+.partnersTitle > span {
+  color: $red;
+}
+
+.partnersTitle > strong {
+  color: $secondary;
+}
+
+.partnersTitle {
+  font-size: 2.5em;
+}
+
+.partnersTitleContainer > p {
+  color: $secondary;
+  font-size: 0.8em;
+}
+
+.partnersLogosContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partnersLogosContainer > img {
+  width: 25%;
+}
+// --
+.partnersRightContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnersImage > img {
+  width: 20em;
+}
+
+@media (max-width: 768px) {
+  .partnersWrapper {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .partnersTitleContainer {
+    text-align: center;
+  }
+
+  .partnersTitleContainer > p {
+    width: unset;
+  }
+
+  .partnersImage > img {
+    width: 14em;
+  }
+
+  .partnersLeftContainer {
+    width: 100%;
+  }
+
+  .partnersLogosContainer > img {
+    width: 25%;
+  }
+}

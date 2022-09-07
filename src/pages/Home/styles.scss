@@ -1,0 +1,50 @@
+@import '../../theme/variables.scss';
+
+.homeWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.homeImage {
+  width: 20em;
+}
+
+.homeImage > img {
+  width: 100%;
+}
+
+.homeTitleContainer > p {
+  color: $secondary;
+  font-size: 0.8em;
+  width: 50%;
+}
+
+.homeTitle {
+  font-size: 2.5em;
+}
+
+.homeTitle > span {
+  color: $red;
+}
+
+.homeTitle > strong {
+  color: $secondary;
+}
+
+@media (max-width: 768px) {
+  .homeWrapper {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .homeTitleContainer {
+    text-align: center;
+  }
+
+  .homeTitleContainer > p {
+    width: unset;
+  }
+}

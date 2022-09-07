@@ -1,0 +1,35 @@
+@import '../../theme/variables.scss';
+
+.home,
+.contact,
+.aboutus,
+.partners {
+  height: 100vh;
+}
+
+.home {
+  background-color: $primary;
+}
+
+.partners {
+  background-color: $dark-primary;
+}
+
+.aboutus {
+  background-color: $primary;
+}
+
+.contact {
+  background-color: $dark-primary;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  padding: 0px;
+}
+
+.navbar > div {
+  padding: 0px;
+}
