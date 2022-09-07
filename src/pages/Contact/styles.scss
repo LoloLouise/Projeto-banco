@@ -1,0 +1,86 @@
+@import '../../theme/variables.scss';
+
+.contactWrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.contactLeftContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconsContainer {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+
+.contactTitleContainer {
+  text-align: center;
+}
+.contactTitle > span {
+  color: $red;
+}
+
+.contactTitle > strong {
+  color: $secondary;
+}
+
+.contactTitle {
+  font-size: 2.5em;
+}
+
+.contactTitleContainer > p {
+  color: $secondary;
+  font-size: 0.8em;
+}
+
+.contactRightContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactImage > img {
+  width: 20em;
+}
+.contactForm {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .contactWrapper {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .contactTitleContainer {
+    text-align: center;
+  }
+
+  .contactTitleContainer > p {
+    width: unset;
+  }
+
+  .contactImage > img {
+    width: 14em;
+  }
+
+  .contactLeftContainer {
+    width: 100%;
+  }
+
+  .iconsContainer {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.1em;
+  }
+}
