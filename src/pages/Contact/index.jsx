@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import PartnersImage from '../../assets/images/conversation.svg';
+import ContactImage from '../../assets/images/contact.svg';
 import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 import './styles.scss';
 
@@ -48,7 +48,7 @@ const Contact = () => {
       </div>
       <div className='contactRightContainer'>
         <div className='contactImage'>
-          <img src={PartnersImage} alt='' />
+          <img src={ContactImage} alt='' />
         </div>
       </div>
     </div>
