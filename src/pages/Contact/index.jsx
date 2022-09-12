@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import ContactImage from '../../assets/images/contact.svg';
-import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { BsFacebook, BsInstagram, BsYoutube } from 'react-icons/bs';
 import './styles.scss';
 
 const Contact = () => {
@@ -11,11 +11,11 @@ const Contact = () => {
         <div className='contactTitleContainer'>
           <div className='contactTitle'>
             <span>Con</span>
-            <strong>tato</strong>
+            <strong>tatos</strong>
           </div>
-          <p>
-            Mussum Ipsum, Suco de cevadiss deixa as pessoas mais interessantis.
-          </p>
+            <p>
+            <strong>Quer saber mais? </strong> Nos acompanhe nas <span>redes sociais</span> e <span>mande sua mensagem</span>           
+            </p>
         </div>
         <div className='iconsContainer'>
           <Button variant='secondary'>
@@ -27,19 +27,19 @@ const Contact = () => {
           </Button>
 
           <Button variant='secondary'>
-            <BsTwitter />
+            <BsYoutube />
           </Button>
         </div>
 
         <Form className='contactForm'>
           <Form.Group className='mb-3'>
             <Form.Label>Seu e-mail</Form.Label>
-            <Form.Control type='email' placeholder='E-mail' />
+            <Form.Control type='email' placeholder='Digite seu e-mail' />
           </Form.Group>
 
           <Form.Group className='mb-3'>
             <Form.Label>Sua mensagem</Form.Label>
-            <Form.Control as='textarea' placeholder='Mensagem' />
+            <Form.Control as='textarea' placeholder='Digite sua mensagem' />
           </Form.Group>
           <Button variant='secondary' type='submit'>
             Enviar

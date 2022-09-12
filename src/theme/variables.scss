@@ -1,8 +1,10 @@
-$primary: #ead5a8;
-$dark-primary: #cfbe99;
-$secondary: #312b21;
-$red: #dc464b;
-$green: #449f85;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700&display=swap');
+
+$primary: #facaca;
+$dark-primary:#EDA2A4;
+$secondary: #740000;
+$red: #bb1313; 
+$green: #59BAB8;
 
 $theme-colors: (
   'primary': $primary,

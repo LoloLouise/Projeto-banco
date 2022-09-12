@@ -6,10 +6,13 @@
   align-items: center;
   width: 100%;
   height: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 400;
 }
 
 .homeImage {
-  width: 20em;
+  width: 70em;
+  margin-right: 6em;
 }
 
 .homeImage > img {
@@ -18,20 +21,25 @@
 
 .homeTitleContainer > p {
   color: $secondary;
-  font-size: 0.8em;
-  width: 50%;
+  font-size: 1.1em;
+  width: 75%;
+  text-align: center;
 }
 
 .homeTitle {
   font-size: 2.5em;
+  margin-top: 0.7em;
+  margin-left: 0.5em;
 }
 
 .homeTitle > span {
   color: $red;
+  font-weight: 600;
 }
 
 .homeTitle > strong {
   color: $secondary;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {

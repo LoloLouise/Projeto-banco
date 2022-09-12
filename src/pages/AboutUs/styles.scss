@@ -4,6 +4,8 @@
   display: flex;
   height: 100%;
   width: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
 }
 
 .aboutusLeftContainer {
@@ -19,22 +21,41 @@
 }
 .aboutusTitle > span {
   color: $red;
+  font-weight: 600;
 }
 
 .aboutusTitle > strong {
   color: $secondary;
+  font-weight: bold;
 }
 
 .aboutusTitle {
   font-size: 2.5em;
+  margin-bottom: 0.5em;
 }
 
 .textAboutUs {
   color: $secondary;
-  font-size: 0.8em;
+  font-size: 1.1em;
   text-align: center;
 }
 
+ul {
+  text-align: justify;
+  list-style: decimal-leading-zero;
+}
+
+.textAboutUs > p {
+  font-size: 1.1em;
+}
+
+li > span {
+  font-weight: 600;
+}
+
+li > strong {
+  font-weight: bold;
+}
 .aboutusRightContainer {
   width: 50%;
   display: flex;
@@ -44,6 +65,11 @@
 
 .aboutusImage > img {
   width: 20em;
+}
+
+.iconsContainer {
+  margin-left: 11em;
+  margin-top: 0.5em;
 }
 
 @media (max-width: 768px) {
@@ -66,5 +92,12 @@
 
   .aboutusLeftContainer {
     width: 100%;
+  }
+
+  .iconsContainer {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.1em;
   }
 }

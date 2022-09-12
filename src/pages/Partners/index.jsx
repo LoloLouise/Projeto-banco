@@ -8,14 +8,12 @@ const Partners = () => {
       <div className='partnersLeftContainer'>
         <div className='partnersTitleContainer'>
           <div className='partnersTitle'>
-            <span>Nossos</span>
-            <strong>Parceiros</strong>
+            <span>Nossos</span> <strong>Parceiros</strong>
           </div>
           <p>
-            Mussum Ipsum, Suco de cevadiss deixa as pessoas mais interessantis.
+            Conheça algumas de nossas parcerias:            
           </p>
         </div>
-
         <div className='partnersLogosContainer'>
           <img src={require('../../assets/images/partners/1.png')} alt='' />
           <img src={require('../../assets/images/partners/2.png')} alt='' />
