@@ -35,11 +35,11 @@ const AboutUs = () => {
             
               <div className='iconsContainer'>
                 <Button variant='secondary'>
-                <BsFacebook />
+                <BsFacebook /> 
                 </Button>
 
                 <Button variant='secondary'>
-                <BsInstagram />
+                <BsInstagram /> <a href="https://www.instagram.com/projetohemoterapia1/"></a>
                 </Button>
 
                 <Button variant='secondary'>
