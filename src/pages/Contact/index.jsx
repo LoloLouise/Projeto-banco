@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import ContactImage from '../../assets/images/contact.svg';
-import { BsFacebook, BsInstagram, BsYoutube } from 'react-icons/bs';
+import { BsFacebook, BsInstagram} from 'react-icons/bs';
 import './styles.scss';
 
 const Contact = () => {
