@@ -13,11 +13,12 @@ const Contact = () => {
             <span>Con</span>
             <strong>tatos</strong>
           </div>
-            <p>
-            <strong>Quer saber mais? </strong> Nos acompanhe nas <span>redes sociais</span> e <span>mande sua mensagem</span>           
-            </p>
+          <p>
+            <strong>Quer saber mais? </strong> Nos acompanhe nas{' '}
+            <span>redes sociais</span> e <span>mande sua mensagem</span>
+          </p>
         </div>
-        <div className='iconsContainer'>
+        <div className='iconsContainerContact'>
           <Button variant='secondary'>
             <BsFacebook />
           </Button>

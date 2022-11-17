@@ -1,0 +1,20 @@
+@import '../../theme/variables.scss';
+
+.registration {
+  height: 100vh;
+}
+
+.registration {
+  background-color: $primary;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  padding: 0px;
+}
+
+.navbar > div {
+  padding: 0px;
+}
