@@ -43,17 +43,14 @@ const AboutUs = () => {
           </p>
         </div>
         <div className='iconsContainerAboutUs'>
-          <Button variant='secondary'>
+          <Button variant='secondary' href='https://www.facebook.com/people/Projeto-Elo/100087533004394/'>
             <BsFacebook />
           </Button>
 
-          <Button variant='secondary'>
+          <Button variant='secondary' href='https://www.instagram.com/projetoelo_/'>
             <BsInstagram />
           </Button>
 
-          <Button variant='secondary'>
-            <BsYoutube />
-          </Button>
         </div>
       </div>
       <div className='aboutusRightContainer'>

@@ -8,25 +8,24 @@ const Home = () => {
     <div className='homeWrapper'>
       <div className='homeTitleContainer'>
         <div className='homeTitle'>
-          <span>A</span> <strong>Doação</strong>
+          <span>A</span> <strong>Doação de Sangue</strong>
         </div>
         <p>
-          É o gesto <strong>altruísta e voluntário</strong> de doar uma{' '}
+          É o gesto <strong>altruísta, voluntário e solidário</strong> de doar uma{' '}
           <span>pequena quantidade</span> do próprio sangue{' '}
           <span>para salvar vidas.</span> Uma <strong>única doação</strong> pode
           salvar até <strong>4 pessoas</strong>.
         </p>
         <p>
           Todos os anos, <span>milhares de pessoas</span> precisam receber
-          doações de sangue. Além das{' '}
+          doações de sangue. Desde as{' '}
           <strong>
-            pessoas que sofrem acidentes graves e as que precisam passar por
+            pessoas que sofreram acidentes graves, ou que precisaram passar por
             certos tratamentos, cirugias e transplantes
           </strong>
-          , muitas <strong>pessoas com algumas doenças crônicas</strong> também
-          precisam de doações.{' '}
+          , até <strong>pessoas com doenças crônicas</strong>.{' '}
           <span>
-            Existem muitas mais pessoas necessitando de doações de sangue do que
+            Existem mais pessoas necessitando de doações de sangue do que
             nós imaginamos.
           </span>
         </p>
@@ -34,11 +33,11 @@ const Home = () => {
           Mas, no Brasil de hoje,{' '}
           <strong>só 1,8% da população doa sangue.</strong>{' '}
           <span>
-            Em muitos estados brasileiros os estoques de sangue estão em níveis
+            Em muitos estados brasileiros, os estoques de sangue estão em níveis
             críticos.
           </span>{' '}
           Corremos o <strong>risco de não ter sangue disponível</strong> em
-          alguns estados <span>para pessoas que necessitam.</span>
+          alguns deles <span>para as pessoas que precisam.</span>
         </p>
         <p>
           Mas <strong>você</strong> pode nos ajudar a{' '}
