@@ -11,7 +11,9 @@
 }
 
 .formDiv {
+  margin-top: 1em;
   width: 40%;
+  font-size: 400;
 }
 
 .form-check-input:checked {
@@ -22,7 +24,15 @@
   color: $secondary;
 }
 
-.mt-3 > span {
+.mt-3 > p {
   color: $red;
+}
+
+.mt-3 {
+  font-size: 2em;
+}
+
+.mb-3 {
+  font-size: 1.4em;
 }
 
