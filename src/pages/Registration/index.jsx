@@ -70,7 +70,7 @@ const Registration = () => {
               'Seus dados foram enviados com sucesso!'
             ) : (
               <>
-                Infelizmente você não pode doar pelo(s) seguinte(s) motivos(s):
+                Infelizmente você não pode doar pelo(s) seguinte(s) motivo(s):
                 <ul>
                   {messages.map((message) => (
                     <li>{message}</li>
