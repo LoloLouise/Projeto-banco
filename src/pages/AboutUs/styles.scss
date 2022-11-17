@@ -16,6 +16,13 @@
   align-items: center;
 }
 
+.iconsContainerAboutUs {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+
 .aboutusTitleContainer {
   text-align: center;
 }
@@ -67,8 +74,7 @@ li > strong {
   width: 20em;
 }
 
-.iconsContainer {
-  margin-left: 11em;
+.iconsContainerAboutUs {
   margin-top: 0.5em;
 }
 
@@ -94,7 +100,7 @@ li > strong {
     width: 100%;
   }
 
-  .iconsContainer {
+  .iconsContainerAboutUs {
     width: 60%;
     display: flex;
     justify-content: space-between;

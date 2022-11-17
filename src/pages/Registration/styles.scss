@@ -1,0 +1,19 @@
+@import '../../theme/variables.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.formDiv {
+  width: 40%;
+}
+
+.form-check-input:checked {
+  background-color: $secondary;
+}
