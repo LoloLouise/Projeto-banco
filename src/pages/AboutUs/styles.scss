@@ -14,13 +14,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 2em;
 }
 
 .iconsContainerAboutUs {
   width: 25%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .aboutusTitleContainer {
@@ -71,7 +72,7 @@ li > strong {
 }
 
 .aboutusImage > img {
-  width: 20em;
+  width: 30em;
 }
 
 .iconsContainerAboutUs {
