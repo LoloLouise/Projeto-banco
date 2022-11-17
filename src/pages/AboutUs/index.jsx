@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../assets/images/logo.svg';
-import { BsFacebook, BsInstagram, BsYoutube } from 'react-icons/bs';
+import { BsFacebook, BsInstagram } from 'react-icons/bs';
 import Button from 'react-bootstrap/Button';
 import './styles.scss';
 
@@ -16,26 +16,20 @@ const AboutUs = () => {
 
         <div className='textAboutUs'>
           <p>
-            O Projeto Elo surgiu para incentivar as pessoas a esse ato de
-            solidariedade e amor ao próximo por meio de parcerias com empresas e
-            organizações.
+            <strong>O Projeto Elo</strong> surgiu para incentivar as pessoas a esse ato de solidariedade e amor ao próximo por meio de <span>parcerias com empresas e organizações.</span>
           </p>
           <p>
             Para aproveitar é muito simples, você só precisa:
             <ul>
               <li>
-                <span>Se cadastrar no nosso site,</span> aceitando os termos de
-                uso.
+                <span>Se cadastrar no nosso site,</span> aceitando os termos de uso.
               </li>
               <li>
-                <span>Doar sangue e cadastrar o comprovante de doação.</span>
+                <span>Doar sangue e cadastrar o comprovante.</span>
               </li>
               <li>
                 <span>
-                  Aproveitar os descontos e brindes disponibilizados por mais de
-                  X empresas
-                </span>{' '}
-                em diversos setores.
+                  Aproveitar os descontos e brindes disponibilizados por mais de X empresas </span>{' '} em diversos setores.
               </li>
             </ul>
             <strong>Quer saber mais?</strong> Se cadastre no site e nos

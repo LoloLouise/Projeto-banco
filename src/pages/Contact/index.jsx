@@ -15,21 +15,18 @@ const Contact = () => {
           </div>
           <p>
             <strong>Quer saber mais? </strong> Nos acompanhe nas{' '}
-            <span>redes sociais</span> e <span>mande sua mensagem</span>
+            <span>redes sociais</span> e <span>mande sua mensagem.</span>
           </p>
         </div>
         <div className='iconsContainerContact'>
-          <Button variant='secondary'>
+          <Button variant='secondary' href='https://www.facebook.com/people/Projeto-Elo/100087533004394/'>
             <BsFacebook />
           </Button>
 
-          <Button variant='secondary'>
+          <Button variant='secondary' href='https://www.instagram.com/projetoelo_/'>
             <BsInstagram />
           </Button>
 
-          <Button variant='secondary'>
-            <BsYoutube />
-          </Button>
         </div>
 
         <Form className='contactForm'>

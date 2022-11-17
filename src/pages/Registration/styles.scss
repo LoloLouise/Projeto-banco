@@ -17,3 +17,12 @@
 .form-check-input:checked {
   background-color: $secondary;
 }
+
+.mt-3, .mb-3 {
+  color: $secondary;
+}
+
+.mt-3 > span {
+  color: $red;
+}
+

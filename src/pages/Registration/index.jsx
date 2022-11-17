@@ -99,7 +99,7 @@ const Registration = () => {
         {stage === 1 ? (
           <>
             <h3 className='mt-3'>Dados pessoais</h3>
-            <p>Precisamos te conhecer melhor Lorem, ipsum dolor sit amet</p>
+            <p> <span>Precisamos te conhecer melhor.</span> </p>
             <Form className='formDiv'>
               <Form.Group className='mb-3' controlId='formName'>
                 <Form.Label>Nome</Form.Label>
