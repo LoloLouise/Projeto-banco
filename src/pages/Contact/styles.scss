@@ -20,7 +20,8 @@
   width: 25%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
 }
 
 .contactTitleContainer {
@@ -42,7 +43,7 @@
 
 .contactTitleContainer > p {
   color: $secondary;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 p > strong {
@@ -66,7 +67,7 @@ p > span {
   width: 80%;
   color: $secondary;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.4em;
 }
 
 .contactForm > button {

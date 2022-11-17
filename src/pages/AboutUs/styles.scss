@@ -14,14 +14,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .iconsContainerAboutUs {
   width: 25%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .aboutusTitleContainer {
@@ -44,7 +44,7 @@
 
 .textAboutUs {
   color: $secondary;
-  font-size: 1.1em;
+  font-size: 1.4em;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@ ul {
 }
 
 .textAboutUs > p {
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 
 li > span {
